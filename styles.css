@@ -1,0 +1,105 @@
+/* Header Section */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    background-color: #ffebcc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: #4d4d4d;
+}
+
+.nav-link:hover {
+    color: #ff8800;
+}
+
+/* Sections */
+section {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #f9f9f9;
+}
+
+/* Enrollment Form */
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+/* Tasks Table */
+table {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    text-align: center;
+    padding: 10px;
+}
+/* General font styling for the body */
+body {
+    font-family: 'Ubuntu', Arial, "Times New Roman", serif;
+}
+
+/* Header Section */
+header {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Section Titles */
+h1, h2 {
+    font-family: "Times New Roman", 'Ubuntu', serif;
+    font-weight: bold;
+}
+
+/* Paragraph text */
+p {
+    font-family: 'Ubuntu', "Arial", sans-serif;
+    font-size: 3rem;
+}
+
+/* Navbar Links */
+.nav-link {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+}
+
+/* Form Labels and Inputs */
+form label, form input, form button {
+    font-family: 'Ubuntu', Arial, "Times New Roman", serif;
+}
+
+/* Table Text */
+table th, table td {
+    font-family: "Times New Roman", 'Ubuntu', Arial, serif;
+}
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
